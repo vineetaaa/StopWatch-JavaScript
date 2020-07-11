@@ -1,0 +1,57 @@
+body{
+    background: linear-gradient(to bottom, #0a877f 0%, #fbde10 100%);
+}
+.stopwatch{
+    border: solid black 1px;
+    margin: 0 auto;
+    width: 500px;
+    height: 650px;
+    background: url("background.jpg");
+}
+.time{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 280px;
+    text-align: center;
+}
+h1{
+    color: white;
+    text-align: center;
+    display: inline-block;
+    font-size: 3em !important;
+    width: 50px;
+}
+.sbtns{
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.start, .stop{
+    margin: 10px;
+    color:black;
+    font-weight: 600;
+    font-size: 1.4em;
+    background-color: 	#fbde10;
+    border-radius: 30px;
+    height: 50px;
+    width: 35%;
+}
+.reset{
+    color:black;
+    font-weight: 600;
+    font-size: 1.4em;
+    background-color: #0a877f;
+    border-radius: 30px;
+    height: 50px;
+    width: 35%;
+}
+.rbtn{
+    text-align: center;
+}
+
+@media screen and (max-width: 500px){
+    .stopwatch{
+      width: 100%;
+    }
+  }
